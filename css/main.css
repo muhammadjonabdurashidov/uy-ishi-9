@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.btn-answer {
+  width: 300px;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 24px;
+  padding: 20px 20px;
+}
+
+
+.btn-answer:hover {
+  background-color: #000;
+  color: yellow;
+  transition: 1.2s;
+}
+
+
+.answer {
+  position: absolute;
+  bottom: 500px;
+  font-size: 70px;
+}
